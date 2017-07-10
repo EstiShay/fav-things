@@ -3,16 +3,15 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src"js/jquery-3.2.1.js"></script>
-    <script src"js/scripts.js"></script>
-    <meta charset="utf-8">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title></title>
   </head>
   <body>
     <div class="container">
       <h1>Favorite Things</h1>
       <div>
-        <form class="favForm" >
+        <form id="favForm" >
           <div class="form-group">
             <label for="movie">Movie:</label>
             <input id="movie" class="form-control" type="text">
@@ -22,10 +21,21 @@
             <input id="vacation-spot" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="fave-food">Food:</label>
-            <input id="fave-food" class="form-control" type="text">
+            <label for="food">Food:</label>
+            <input id="food" class="form-control" type="text">
           </div>
+          <button type="submit" class="btn">Submit</button>
         </form>
+      </div>
+
+      <div class="answers">
+        <!-- <span class="answerArray"></span> -->
+
+        <h2>Answers!</h2>
+        <ul>
+          <!--array goes here -->
+        </ul>
+
       </div>
 
     </div>
